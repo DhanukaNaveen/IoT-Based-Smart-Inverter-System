@@ -35,7 +35,3 @@ The complete diagrams and explanations are available in the `circuit-diagrams/` 
 - Web interface (HTML/JavaScript)
 - Predictive analytics (optional with Python)
 
-## Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DhanukaNaveen/IoT-Based-Smart-Inverter-System.git
