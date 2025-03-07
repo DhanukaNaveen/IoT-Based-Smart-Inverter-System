@@ -12,6 +12,14 @@ This project is an IoT-enabled smart inverter system designed to manage energy u
 ### Circuit Diagram
 The complete diagrams and explanations are available in the `circuit-diagrams/` folder.
 
+![Circuit Design](./images/Circuit%20Design.png)
+
+## App Interface
+
+Below is the user interface of the Smart Inverter App, which allows users to monitor and manage the inverter system through a web interface.
+
+![Smart Inverter App Interface](./images/Smart%20Inverter%20App%20Interface.png)
+
 ## Features
 - Load prioritization and management using relays.
 - Renewable energy integration (solar panels).
@@ -34,4 +42,3 @@ The complete diagrams and explanations are available in the `circuit-diagrams/` 
 - MQTT for IoT communication
 - Web interface (HTML/JavaScript)
 - Predictive analytics (optional with Python)
-
