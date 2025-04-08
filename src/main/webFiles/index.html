@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMART INVERTER</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <button id="espReset">RESTART SYSTEM</button>
+    <button onclick="alarm_off()">ALARM OFF</button>
+    <h2>SMART INVERTER</h2>
+    <label id="progress">Connecting...</label>
+  </header>
+
+  <div class="inverter_data_box">
+    <div class="inverter_value_box">
+      <label>AC voltage :  </label>
+      <label id="ac_voltage_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>AC Current : </label>
+      <label id="ac_current_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>AC Frequency : </label>
+      <label id="ac_frequency_txt_ptr">0000 v</label>
+    </div>
+  </div>
+
+  <div class="inverter_data_box">
+    <div class="inverter_value_box">
+      <label>AC Power : </label>
+      <label id="ac_power_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>Energy used : </label>
+      <label id="ac_energy_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>P.F. : </label>
+      <label id="ac_powerfac_txt_ptr">0000 v</label>
+    </div>
+  </div>
+
+  <div class="inverter_data_box">
+    <div class="inverter_value_box">
+      <label>Battery voltage : </label>
+      <label id="batt_volt_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>Battery Percentage : </label>
+      <label id="batt_precent_txt_ptr">0000 v</label>
+    </div>
+    <div class="inverter_value_box">
+      <label>Temperature : </label>
+      <label id="temperature_txt_ptr">0000 v</label>
+    </div>
+  </div>
+
+  <div style="margin: 20px 30px; border: 1px solid white;">
+    <div class="inverter_data_box" style="justify-content: space-evenly;">
+      <h3>DEVICE STATUS</h3>
+      <div class="device_status_box">
+        <div class="device_name">Device 1</div>
+        <div class="device_button" id="relay_1_status">ON</div>
+      </div>
+      <div class="device_status_box">
+        <div class="device_name">Device 2</div>
+        <div class="device_button" id="relay_2_status">OFF</div>
+      </div>
+      <div class="device_status_box">
+        <div class="device_name">Device 3</div>
+        <div class="device_button" id="relay_3_status">ON</div>
+      </div>
+      <div class="device_status_box">
+        <div class="device_name">Device 4</div>
+        <div class="device_button" id="relay_4_status">OFF</div>
+      </div>
+      <div class="device_status_box">
+        <div class="device_name">Device 5</div>
+        <div class="device_button" id="relay_5_status">ON</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin: 20px 30px; border: 1px solid white;">
+    <div class="inverter_data_box" style="justify-content: space-evenly;">
+      <h3>DEVICE CONTROL</h3>
+      <span>
+        <label for="relay_control_num">Select device:</label><br>
+        <select id="relay_control_num">
+          <option value="0">DEVICE 1</option>
+          <option value="1">DEVICE 2</option>
+          <option value="2">DEVICE 3</option>
+          <option value="3">DEVICE 4</option>
+          <option value="4">DEVICE 5</option>
+        </select>
+      </span>
+      <span>
+        <input type="radio" id="RELAYMODE_AUTO" name="RELAYMODE" value="2" checked>
+        <label for="RELAYMODE_AUTO">AUTO</label><br>
+        <input type="radio" id="RELAYMODE_ON" name="RELAYMODE" value="1">
+        <label for="RELAYMODE_ON">ON</label><br>
+        <input type="radio" id="RELAYMODE_OFF" name="RELAYMODE" value="0">
+        <label for="RELAYMODE_OFF">OFF</label><br>
+      </span>
+      <span>
+        <label for="relay_control_precent">Enter auto off battery percentage :</label><br>
+        <input type="number" id="relay_control_precent" value="0">
+      </span>
+      <button onclick="relay_control_submit()">SUBMIT</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
