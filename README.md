@@ -29,10 +29,13 @@ Below is the user interface of the Smart Inverter App, which allows users to mon
 ![Smart Inverter App Interface](./images/Smart_inverter_App_Interface.jpeg)
 
 ## Features
-- Load prioritization and management using relays.
-- Renewable energy integration (solar panels).
-- Voice assistant for alerts and notifications.
-- Real-time web-based monitoring.
+- **Load Prioritization and Management**: The system uses relays to dynamically manage the loads, ensuring that high-priority devices are powered first based on battery levels and energy availability.
+- **Real-Time Monitoring and Data Visualization**: Users can monitor battery levels, load status, temperature, and energy consumption through a real-time web interface.
+- **Voice Assistant Alerts**: Optional voice notifications provide real-time system alerts, making the system more user-friendly and accessible.
+- **Battery Level Monitoring**: The system provides insights into the level of the connected battery, ensuring users are notified if the battery voltage is too low or if there are any performance issues.
+
+## Circuit Design
+
 
 ## Technologies Used
 
