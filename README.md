@@ -47,4 +47,4 @@ Below is the user interface of the Smart Inverter App, which allows users to mon
 ### Software:
 - **ESP32 Firmware**: Written in C/C++ for sensor and relay interaction, and IoT communication.
 - **UART**: For communication between the embedded system and the web interface.
-- **Web Interface**: HTML, JavaScript, and CSS for the front end.
+- **Web Interface**: HTML, JavaScript, and CSS for the front-end.
