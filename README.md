@@ -34,9 +34,6 @@ Below is the user interface of the Smart Inverter App, which allows users to mon
 - **Voice Assistant Alerts**: Optional voice notifications provide real-time system alerts, making the system more user-friendly and accessible.
 - **Battery Level Monitoring**: The system provides insights into the level of the connected battery, ensuring users are notified if the battery voltage is too low or if there are any performance issues.
 
-## Circuit Design
-
-
 ## Technologies Used
 
 ### Hardware:
