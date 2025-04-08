@@ -21,7 +21,7 @@ The circuit design for the IoT-Based Smart Inverter System incorporates several 
 ### Circuit Diagram
 The complete diagrams and explanations are available in the `circuit-diagrams/` folder.
 
-![Circuit Design](./images/Circuit%20Design.png)
+![Circuit Design](./images/Circuit diagram.jpeg)
 
 ## App Interface
 
