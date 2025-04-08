@@ -40,16 +40,14 @@ Below is the user interface of the Smart Inverter App, which allows users to mon
 ## Technologies Used
 
 ### Hardware:
-- ESP32 microcontroller
-- Voltage, current, and temperature sensors
-- Solar panels
-- Relay modules
-- 12V car battery
-- DC-to-AC inverter circuit
-- Voice module
+- ESP32 Microcontroller
+- PZEM-0041 (100A) Sensor
+- 12V DC Voltage Sensor
+- DHT11 Sensor
+- Relay Modules
+- Buzzer for Audio Alerts
 
 ### Software:
-- Embedded C/C++ (ESP32 firmware)
-- MQTT for IoT communication
-- Web interface (HTML/JavaScript)
-- Predictive analytics (optional with Python)
+- **ESP32 Firmware**: Written in C/C++ for sensor and relay interaction, and IoT communication.
+- **UART**: For communication between the embedded system and the web interface.
+- **Web Interface**: HTML, JavaScript, and CSS for the front-end.
