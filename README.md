@@ -17,17 +17,16 @@ The circuit design for the IoT-Based Smart Inverter System incorporates several 
 
 - **Buzzer**: Provides real-time audio alerts for important system statuses and alerts.
 
-
 ### Circuit Diagram
 The complete diagrams and explanations are available in the `circuit-diagrams/` folder.
 
-![Circuit Design](./images/Circuit diagram.jpeg)
+![Circuit Design](./images/Circuit%20diagram.jpeg)
 
 ## App Interface
 
 Below is the user interface of the Smart Inverter App, which allows users to monitor and manage the inverter system through a web interface.
 
-![Smart Inverter App Interface](./images/Smart%20Inverter%20App%20Interface.png)
+![Smart Inverter App Interface](./images/Smart_inverter_App_Interface.jpeg)
 
 ## Features
 - Load prioritization and management using relays.
